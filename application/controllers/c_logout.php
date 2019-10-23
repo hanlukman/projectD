@@ -10,7 +10,7 @@ class C_logout extends CI_Controller {
 		$this->load->library('user_agent'); //deklarasi mengaktifkan library pagination 
 	} 
 
-	function logout(){
+	function index(){
 		$this->session->sess_destroy();
 		redirect('c_userview/home');
 	}

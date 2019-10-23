@@ -43,7 +43,7 @@ class C_login extends CI_Controller {
 			// echo "<script type=\"text/javascript\"> alert('nik dan password salah!'); </script>";
 			// redirect('C_login');
 			$this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">NIK atau Password Salah</div>');
-			redirect('C_login/login');
+			redirect('C_login');
 
 		}		
 	}

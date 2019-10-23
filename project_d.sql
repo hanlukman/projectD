@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 20, 2019 at 03:07 PM
+-- Generation Time: Oct 23, 2019 at 08:03 PM
 -- Server version: 10.3.16-MariaDB
 -- PHP Version: 7.3.6
 
@@ -139,6 +139,13 @@ CREATE TABLE `user` (
   `pass` varchar(255) NOT NULL,
   `level` int(2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `user`
+--
+
+INSERT INTO `user` (`id`, `nik`, `nama`, `no_telp`, `pass`, `level`) VALUES
+(12, 'admin', 'admin', 'admin', '21232f297a57a5a743894a0e4a801fc3', 1);
 
 --
 -- Indexes for dumped tables

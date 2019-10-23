@@ -65,7 +65,7 @@
            </span></a>
           <li>
               
-              <a href="<?php echo base_url('c_logout/logout')?>"><i class="fa fa-sign-out"></i></a>
+              <a href="<?php echo base_url('c_logout')?>"><i class="fa fa-sign-out"></i></a>
             <?php } else { ?>
              <a href="<?php echo base_url('c_login/login')?>"> <i class="fa fa-sign-in"></a></i>
             <?php } ?>
